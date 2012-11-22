@@ -1,0 +1,55 @@
+package JazzVTF;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$DEFINITIONINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'Jazz ValueType Framework'}
+{$RUNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  vcl,
+  dbrtl;
+
+contains
+  JazzClasses in '..\..\VTF\JazzClasses.pas',
+  JazzCoreConsts in '..\..\VTF\JazzCoreConsts.pas',
+  JazzObserverIntf in '..\..\VTF\JazzObserverIntf.pas',
+  JazzSubject in '..\..\VTF\JazzSubject.pas',
+  JazzSubjectIntf in '..\..\VTF\JazzSubjectIntf.pas',
+  JazzUtils in '..\..\VTF\JazzUtils.pas',
+  JazzValueType in '..\..\VTF\JazzValueType.pas',
+  JazzValueTypeIntf in '..\..\VTF\JazzValueTypeIntf.pas',
+  JazzTypes in '..\..\VTF\JazzTypes.pas',
+  JazzConsts in '..\..\VTF\JazzConsts.pas',
+  JazzTypeInfo in '..\..\VTF\JazzTypeInfo.pas',
+  JazzIntfUtils in '..\..\VTF\JazzIntfUtils.pas',
+  JazzMasterDetailIntf in '..\..\VTF\JazzMasterDetailIntf.pas',
+  JazzNotify in '..\..\VTF\JazzNotify.pas',
+  JazzNotifyIntf in '..\..\VTF\JazzNotifyIntf.pas',
+  JazzVarUtils in '..\..\VTF\JazzVarUtils.pas';
+
+end.

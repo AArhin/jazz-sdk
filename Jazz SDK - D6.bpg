@@ -1,0 +1,49 @@
+#------------------------------------------------------------------------------
+VERSION = BWS.01
+#------------------------------------------------------------------------------
+!ifndef ROOT
+ROOT = $(MAKEDIR)\..
+!endif
+#------------------------------------------------------------------------------
+MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
+DCC = $(ROOT)\bin\dcc32.exe $**
+BRCC = $(ROOT)\bin\brcc32.exe $**
+#------------------------------------------------------------------------------
+PROJECTS = JazzVTF.bpl JazzOPF.bpl JazzOPFFirebird.bpl JazzOPFADO.bpl \
+  JazzOPFDBX.bpl JazzOPFIBX.bpl JazzMVP.bpl JazzMVPVCL.bpl JazzDBAdapter.bpl \
+  JazzDBAdapterDsgn.bpl
+#------------------------------------------------------------------------------
+default: $(PROJECTS)
+#------------------------------------------------------------------------------
+
+JazzVTF.bpl: Packages\D6\JazzVTF.dpk
+  $(DCC)
+
+JazzOPF.bpl: Packages\D6\JazzOPF.dpk
+  $(DCC)
+
+JazzOPFFirebird.bpl: Packages\D6\JazzOPFFirebird.dpk
+  $(DCC)
+
+JazzOPFADO.bpl: Packages\D6\JazzOPFADO.dpk
+  $(DCC)
+
+JazzOPFDBX.bpl: Packages\D6\JazzOPFDBX.dpk
+  $(DCC)
+
+JazzOPFIBX.bpl: Packages\D6\JazzOPFIBX.dpk
+  $(DCC)
+
+JazzMVP.bpl: Packages\D6\JazzMVP.dpk
+  $(DCC)
+
+JazzMVPVCL.bpl: Packages\D6\JazzMVPVCL.dpk
+  $(DCC)
+
+JazzDBAdapter.bpl: Packages\D6\JazzDBAdapter.dpk
+  $(DCC)
+
+JazzDBAdapterDsgn.bpl: Packages\D6\JazzDBAdapterDsgn.dpk
+  $(DCC)
+
+

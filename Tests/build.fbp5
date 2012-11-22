@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VSXML>
+  <Object Class="TFBProject" XMLID="{5C301890-558B-4F5F-BA31-11DEBF6CE924}"><Property MultiValue="0" name="EncryptedEditPassword" type="string"></Property>
+    <Property MultiValue="0" name="GlobalJScript" type="string"></Property>
+    <Property MultiValue="0" name="GlobalVBScript" type="string"></Property>
+    <Property MultiValue="0" name="Name" type="string"></Property>
+    <Property MultiValue="0" name="ProjectID" type="string"></Property>
+    <Property MultiValue="0" name="SCCAuxPath" type="string"></Property>
+    <Property name="SCCLocalPathHash" type="Cardinal">0</Property>
+    <Property MultiValue="0" name="SCCProjectName" type="string"></Property>
+    <Property MultiValue="0" name="SCCProviderBinding" type="string"></Property>
+    <Property MultiValue="0" name="SCCUserName" type="string"></Property>
+    <Object Class="TFBActionListCollection" XMLID="{25C495BC-51C8-49F6-9982-CD80BE6E0BAA}"><Object Class="TFBActionList" XMLID="{3D5C1C18-A9FD-4813-9319-62ED73CCEA89}"><Property name="IsFailure" type="Boolean">False</Property>
+        <Property name="IsMain" type="Boolean">True</Property>
+        <Property MultiValue="0" name="Name" type="string">Main</Property>
+        <Property MultiValue="0" name="UniqueID" type="string">{4CD221DB-9F08-4F6D-AC26-6FEDC7077781}</Property>
+        <Object Class="TFBAction" XMLID="{A1AA35A2-52E7-46F3-B3E8-E38CD261F9EF}"><Property MultiValue="0" name="ActionComment" type="string"></Property>
+          <Property MultiValue="0" name="ActionDescription" type="string">FinalBuilderAction</Property>
+          <Property name="ActionTextColor" type="Cardinal">0</Property>
+          <Property MultiValue="0" name="ActionTypeID" type="string"></Property>
+          <Property name="Enabled" type="WordBool">True</Property>
+          <Property name="ExpandActionLogTitle" type="Boolean">True</Property>
+          <Property name="IgnoreFailure" type="WordBool">False</Property>
+          <Property name="IsAction" type="Boolean">True</Property>
+          <Property name="IsBreakPoint" type="WordBool">False</Property>
+          <Property MultiValue="0" name="LogToVariable" type="string"></Property>
+          <Property name="MaxRetryAttempts" type="Cardinal">0</Property>
+          <Property name="NodeCollapsed" type="Boolean">False</Property>
+          <Property name="PauseInterval" type="Cardinal">0</Property>
+          <Property name="RetryPauseInterval" type="Cardinal">1000</Property>
+          <Property name="SuppressStatusMessages" type="Boolean">False</Property>
+          <Object Class="TDelphiCompilerAction" XMLID="{CE387EFE-AA7E-478B-B1EF-64870169A530}"><Property MultiValue="0" name="ActionComment" type="string"></Property>
+            <Property MultiValue="1" name="ActionDescription" type="string"><![CDATA[Compile Delphi Win32 Project [ %FBPROJECTDIR%\JazzTests.dpr ]]]>
+              </Property>
+            <Property name="ActionTextColor" type="Cardinal">0</Property>
+            <Property MultiValue="0" name="ActionTypeID" type="string"></Property>
+            <Property name="AllowImplicitImport" type="Boolean">True</Property>
+            <Property name="AlwaysUseConditionalsFromDOF" type="WordBool">False</Property>
+            <Property name="AutoIncBuild" type="WordBool">False</Property>
+            <Property name="AutoUpdateFileVersion" type="Boolean">True</Property>
+            <Property name="BuildAll" type="WordBool">True</Property>
+            <Property name="BuildVersion" type="Integer">0</Property>
+            <Property name="CodePage" type="Integer">1252</Property>
+            <Property name="CompilerVersion" type="Integer">11</Property>
+            <Property name="DebugVersionNumbers" type="Boolean">False</Property>
+            <Property name="Enabled" type="WordBool">True</Property>
+            <Property name="ExpandActionLogTitle" type="Boolean">True</Property>
+            <Property MultiValue="0" name="ExtraCommandline" type="WideString"></Property>
+            <Property name="HintsAsError" type="Boolean">False</Property>
+            <Property MultiValue="0" name="IconFile" type="WideString"></Property>
+            <Property name="IgnoreFailure" type="WordBool">False</Property>
+            <Property name="IncludeCompileDate" type="WordBool">False</Property>
+            <Property name="IncludeVerInfo" type="WordBool">False</Property>
+            <Property name="IsAction" type="Boolean">True</Property>
+            <Property name="IsBreakPoint" type="WordBool">False</Property>
+            <Property name="IsDebug" type="WordBool">False</Property>
+            <Property name="IsDLL" type="WordBool">False</Property>
+            <Property name="IsPreRelease" type="WordBool">False</Property>
+            <Property name="IsPrivate" type="WordBool">False</Property>
+            <Property name="IsSpecial" type="WordBool">False</Property>
+            <Property name="KeepCFG" type="Boolean">False</Property>
+            <Property name="LinkProductVersionToFileVersion" type="Boolean">False</Property>
+            <Property name="Locale" type="Integer">1046</Property>
+            <Property MultiValue="0" name="LogToVariable" type="string"></Property>
+            <Property name="MajorVersion" type="Integer">0</Property>
+            <Property name="MaxRetryAttempts" type="Cardinal">0</Property>
+            <Property name="MinorVersion" type="Integer">0</Property>
+            <Property name="NodeCollapsed" type="Boolean">False</Property>
+            <Property name="PauseInterval" type="Cardinal">0</Property>
+            <Property MultiValue="0" name="ProjectFile" type="WideString">%FBPROJECTDIR%\JazzTests.dpr</Property>
+            <Property name="RegenerateResource" type="WordBool">True</Property>
+            <Property name="ReleaseVersion" type="Integer">0</Property>
+            <Property MultiValue="0" name="ResourceCompilerOptions" type="string"></Property>
+            <Property MultiValue="0" name="ResourceCompilerPath" type="string"></Property>
+            <Property name="ResourceCompilerType" type="TFBDelphiResourceCompiler">rcBorland</Property>
+            <Property name="RetryPauseInterval" type="Cardinal">1000</Property>
+            <Property MultiValue="0" name="StartingDir" type="WideString">%FBPROJECTDIR%</Property>
+            <Property name="SuppressStatusMessages" type="Boolean">False</Property>
+            <Property name="UpdateDofFile" type="Boolean">False</Property>
+            <Property name="UpdatePackageSource" type="Boolean">False</Property>
+            <Property name="UseEurekaLogCompiler" type="Boolean">False</Property>
+            <Property name="UseProjectSettings" type="TFBUseProjectSettings">[]</Property>
+            <Property name="UsePropertySet" type="Boolean">False</Property>
+            <Property name="UseVersionFromDOF" type="Boolean">False</Property>
+            <Property MultiValue="1" name="VersionInfoKeys" type="WideString"><![CDATA[CompanyName=
+FileDescription=
+FileVersion=0.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=0.0.0.0
+Comments=
+]]>
+              </Property>
+            <Property MultiValue="0" name="VersionInfoPropertySetName" type="string"></Property>
+            <Property name="WarningsAsError" type="Boolean">False</Property>
+            <Property name="WorkAroundD5Bug" type="WordBool">False</Property>
+            <Object Class="TDelphiCompilerOptions" XMLID="{5CB29212-AED0-4ABA-AB15-7F6DB9190819}"><Property name="AlwaysUseConditionalsFromDOF" type="WordBool">False</Property>
+              <Property name="AlwaysUseDelphiLibraryPath" type="WordBool">True</Property>
+              <Property name="AlwaysUseDOFSearchPath" type="WordBool">False</Property>
+              <Property name="Assertions" type="WordBool">True</Property>
+              <Property name="AssignableConst" type="WordBool">False</Property>
+              <Property name="BoolEval" type="WordBool">False</Property>
+              <Property MultiValue="0" name="BPLOutputDir" type="WideString"></Property>
+              <Property name="CompilerWarnings" type="TStrings"><![CDATA[-w-UNSAFE_TYPE=0
+-w-UNSAFE_CODE=0
+-w-UNSAFE_CAST=0
+]]>
+                </Property>
+              <Property MultiValue="0" name="Conditionals" type="WideString">CONSOLE_TESTRUNNER</Property>
+              <Property name="ConsoleApp" type="WordBool">False</Property>
+              <Property MultiValue="0" name="DCPOutputDir" type="WideString"></Property>
+              <Property name="DebugInfo" type="WordBool">True</Property>
+              <Property MultiValue="0" name="DefaultNamespace" type="string"></Property>
+              <Property name="DefinitionsOnly" type="WordBool">True</Property>
+              <Property MultiValue="0" name="ExeDescription" type="WideString"></Property>
+              <Property name="ExportAllSymbols" type="WordBool">False</Property>
+              <Property name="ExtendedSyntax" type="WordBool">True</Property>
+              <Property name="GenerateDocumentation" type="Boolean">False</Property>
+              <Property name="GenerateHPP" type="WordBool">False</Property>
+              <Property name="HugeStrings" type="WordBool">True</Property>
+              <Property name="ImageBase" type="Cardinal">4194304</Property>
+              <Property name="IncludeNamespaces" type="WordBool">False</Property>
+              <Property name="IncludeRemoteSymbols" type="WordBool">False</Property>
+              <Property name="IncludeTD32" type="WordBool">False</Property>
+              <Property name="IOChecking" type="WordBool">True</Property>
+              <Property MultiValue="1" name="LibraryPath" type="WideString"><![CDATA[C:\Program Files\Woll2Woll\ipstudio2006\lib\windows;$(BDS)\lib;$(BDS)\Imports;$(BDS)\Lib\Indy10;C:\Program Files\Borland\BDS\4.0\RaveReports\Lib;$(RemObjects SDK)\Dcu\D10;$(RemObjects SDK)\Source;$(RemObjects SDK)\Source\CodeGen;$(RemObjects SDK)\Source\RODX;$(RemObjects SDK)\Source\DataSnap;$(RemObjects SDK)\Source\ZLib;$(RemObjects SDK)\Source\RODEC;$(Everwood)\Bin;$(Data Abstract)\Dcu\D10;$(Data Abstract)\Source;$(Data Abstract)\Source\Drivers;$(Pascal Script)\Dcu\D10;$(Pascal Script)\Source;d:\lib\pdbdatamanager3.5\d2006;d:\lib\rdprint\d2006;d:\lib\turbosync\d2006;d:\lib\zipforge\lib\delphi 2006 and c++ builder 2006;D:\Lib\MaxComponents\mxNativeExcel\COMPONENT;D:\Lib\MaxComponents\mxExports\COMPONENT;c:\users\erick\documents\borland studio projects\bpl;$(BDS)\OpenWire;$(BDS)\LabPacks;$(BDS)\RBuilder\Lib;D:\Lib\Jedi\jvcl\lib\D10;D:\Lib\Jedi\jvcl\common;D:\Lib\Jedi\jvcl\Resources;D:\Lib\tb2k\lib;..\lib-delphi;D:\Lib\Jedi\jcl\lib\d10;d:\erick\documentos\borland studio projects\bpl;C:\Program Files\GExperts for BDS 2006;D:\Lib\SyncAnywhere\D2006;D:\Lib\delphi-conduits;$(Hydra)\Dcu\D10;$(Hydra)\Source;$(DXVCL)\Library\Delphi10;C:\Program Files\Gurock Software\SmartInspect Professional\lib\delphi\delphi2006\;C:\Program Files\madCollection\madBasic\DeXter;C:\Program Files\madCollection\madDisAsm\DeXter;C:\Program Files\madCollection\madExcept\DeXter;C:\Program Files\madCollection\madExcept\..\Plugins;C:\Program Files\madCollection\madKernel\DeXter;C:\Program Files\madCollection\madSecurity\DeXter;C:\Program Files\madCollection\madShell\DeXter]]>
+                </Property>
+              <Property name="LinkerOutput" type="Integer">0</Property>
+              <Property name="LocalSymbols" type="WordBool">True</Property>
+              <Property name="Mapfile" type="Integer">0</Property>
+              <Property name="MaxStackSize" type="Cardinal">1048576</Property>
+              <Property name="MinStackSize" type="Cardinal">16384</Property>
+              <Property MultiValue="0" name="NamespacePrefixes" type="string"></Property>
+              <Property name="OpenStrings" type="WordBool">True</Property>
+              <Property name="Optimisation" type="WordBool">True</Property>
+              <Property MultiValue="0" name="OutputDir" type="WideString"></Property>
+              <Property name="OverflowChecking" type="WordBool">False</Property>
+              <Property MultiValue="0" name="Packages" type="WideString"></Property>
+              <Property name="RangeChecking" type="WordBool">False</Property>
+              <Property name="RecordFieldAlign" type="TFieldAlign">fa8</Property>
+              <Property name="ReferenceInfo" type="WordBool">True</Property>
+              <Property name="SafeDivide" type="WordBool">False</Property>
+              <Property MultiValue="0" name="SearchPath" type="WideString">..\vtf;..\dbadapter;..\packages;..\opf</Property>
+              <Property name="ShowHints" type="WordBool">True</Property>
+              <Property name="ShowWarnings" type="WordBool">True</Property>
+              <Property name="StackFrames" type="WordBool">False</Property>
+              <Property name="TypedPointers" type="WordBool">False</Property>
+              <Property MultiValue="0" name="UnitAliases" type="WideString">WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;</Property>
+              <Property MultiValue="0" name="UnitOutputDir" type="WideString"></Property>
+              <Property name="UseDebugDCU" type="WordBool">False</Property>
+              <Property name="UsePackages" type="WordBool">False</Property>
+              <Property name="VarStringChecks" type="WordBool">True</Property>
+              </Object>
+            </Object>
+          <Object Class="TRunProgramAction" XMLID="{81067919-8F98-47FF-B5CC-B58188E38832}"><Property MultiValue="0" name="ActionComment" type="string"></Property>
+            <Property MultiValue="1" name="ActionDescription" type="string"><![CDATA[Execute Program [ %FBPROJECTDIR%\JazzTests.exe ]]]>
+              </Property>
+            <Property name="ActionTextColor" type="Cardinal">0</Property>
+            <Property MultiValue="0" name="ActionTypeID" type="string"></Property>
+            <Property name="CaptureOutput" type="Boolean">True</Property>
+            <Property name="Enabled" type="WordBool">True</Property>
+            <Property name="EnableLiveCapture" type="Boolean">True</Property>
+            <Property name="EnableReturnCodeCheck" type="Boolean">False</Property>
+            <Property name="EnableTimeout" type="Boolean">False</Property>
+            <Property name="ExpandActionLogTitle" type="Boolean">True</Property>
+            <Property MultiValue="0" name="ExtraCmdLineParamsAtEnd" type="string"></Property>
+            <Property MultiValue="0" name="ExtraCmdLineParamsAtStart" type="string"></Property>
+            <Property name="HideWindow" type="Boolean">True</Property>
+            <Property name="IgnoreFailure" type="WordBool">False</Property>
+            <Property MultiValue="0" name="ImpersonateToken" type="string"></Property>
+            <Property name="ImpersonateUser" type="Boolean">False</Property>
+            <Property MultiValue="0" name="ImpersonateUserName" type="string"></Property>
+            <Property name="IsAction" type="Boolean">True</Property>
+            <Property name="IsBreakPoint" type="WordBool">False</Property>
+            <Property name="LogOutput" type="WordBool">True</Property>
+            <Property MultiValue="0" name="LogToVariable" type="string"></Property>
+            <Property name="MaxRetryAttempts" type="Cardinal">0</Property>
+            <Property name="NodeCollapsed" type="Boolean">False</Property>
+            <Property MultiValue="0" name="Params" type="WideString"></Property>
+            <Property name="PauseInterval" type="Cardinal">0</Property>
+            <Property name="ProcessorAffinity" type="Cardinal">0</Property>
+            <Property name="ProcessPriority" type="TFBExecuteThreadPriority">tpNormal</Property>
+            <Property MultiValue="0" name="ProgramName" type="WideString">%FBPROJECTDIR%\JazzTests.exe</Property>
+            <Property name="RedirectStdErr" type="Boolean">True</Property>
+            <Property name="RetryPauseInterval" type="Cardinal">1000</Property>
+            <Property name="ReturnCodeComparator" type="TFBRunReturnCodeComparator">rcEqualTo</Property>
+            <Property name="ReturnCodeToCheck" type="Integer">0</Property>
+            <Property MultiValue="0" name="StartInDir" type="WideString"></Property>
+            <Property name="SuppressStatusMessages" type="Boolean">False</Property>
+            <Property name="TerminateOnTimeout" type="Boolean">True</Property>
+            <Property name="TimeoutLength" type="Cardinal">1</Property>
+            <Property name="WaitForCompletion" type="Boolean">True</Property>
+            </Object>
+          </Object>
+        <Object Class="TFBActionListParametersCollection" XMLID="{DC33293D-EACD-4408-9EE9-1F423163FF15}"/>
+        </Object>
+      <Object Class="TFBActionList" XMLID="{FFE8F501-C031-44DD-9D37-2D094489A9F9}"><Property name="IsFailure" type="Boolean">True</Property>
+        <Property name="IsMain" type="Boolean">False</Property>
+        <Property MultiValue="0" name="Name" type="string">OnFailure</Property>
+        <Property MultiValue="0" name="UniqueID" type="string">{21D4B48F-BDE9-46CF-B49D-2BF9406BB8F9}</Property>
+        <Object Class="TFBAction" XMLID="{24FC7CF3-E653-48A6-A647-9C2EDB780723}"><Property MultiValue="0" name="ActionComment" type="string"></Property>
+          <Property MultiValue="0" name="ActionDescription" type="string">FinalBuilderAction</Property>
+          <Property name="ActionTextColor" type="Cardinal">0</Property>
+          <Property MultiValue="0" name="ActionTypeID" type="string"></Property>
+          <Property name="Enabled" type="WordBool">True</Property>
+          <Property name="ExpandActionLogTitle" type="Boolean">True</Property>
+          <Property name="IgnoreFailure" type="WordBool">False</Property>
+          <Property name="IsAction" type="Boolean">True</Property>
+          <Property name="IsBreakPoint" type="WordBool">False</Property>
+          <Property MultiValue="0" name="LogToVariable" type="string"></Property>
+          <Property name="MaxRetryAttempts" type="Cardinal">0</Property>
+          <Property name="NodeCollapsed" type="Boolean">False</Property>
+          <Property name="PauseInterval" type="Cardinal">0</Property>
+          <Property name="RetryPauseInterval" type="Cardinal">1000</Property>
+          <Property name="SuppressStatusMessages" type="Boolean">False</Property>
+          </Object>
+        <Object Class="TFBActionListParametersCollection" XMLID="{75A17E61-E244-4C54-8262-5AA380DB2329}"/>
+        </Object>
+      </Object>
+    <Object Class="TFBVariablesCollection" XMLID="{AADE4A48-AA75-4846-948A-B8291D4AD533}"><Property MultiValue="0" name="Name" type="string">Project</Property>
+      </Object>
+    </Object>
+  </VSXML>

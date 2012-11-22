@@ -1,0 +1,134 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{5f57dedb-6129-4037-b168-e349ec5517d9}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Projects Include="Demos\02.First Persister\FirstPersister.dproj" />
+    <Projects Include="Packages\D2007\JazzDBAdapter.dproj" />
+    <Projects Include="Packages\D2007\JazzDBAdapterDsgn.dproj" />
+    <Projects Include="Packages\D2007\JazzMVP.dproj" />
+    <Projects Include="Packages\D2007\JazzMVPVCL.dproj" />
+    <Projects Include="Packages\D2007\JazzOPF.dproj" />
+    <Projects Include="Packages\D2007\JazzOPFADO.dproj" />
+    <Projects Include="Packages\D2007\JazzOPFDBX.dproj" />
+    <Projects Include="Packages\D2007\JazzOPFFirebird.dproj" />
+    <Projects Include="Packages\D2007\JazzOPFIBX.dproj" />
+    <Projects Include="Packages\D2007\JazzVTF.dproj" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+<BorlandProject xmlns=""><Default.Personality></Default.Personality></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="JazzVTF">
+    <MSBuild Projects="Packages\D2007\JazzVTF.dproj" Targets="" />
+  </Target>
+  <Target Name="JazzVTF:Clean">
+    <MSBuild Projects="Packages\D2007\JazzVTF.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="JazzVTF:Make">
+    <MSBuild Projects="Packages\D2007\JazzVTF.dproj" Targets="Make" />
+  </Target>
+  <Target Name="JazzOPF">
+    <MSBuild Projects="Packages\D2007\JazzOPF.dproj" Targets="" />
+  </Target>
+  <Target Name="JazzOPF:Clean">
+    <MSBuild Projects="Packages\D2007\JazzOPF.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="JazzOPF:Make">
+    <MSBuild Projects="Packages\D2007\JazzOPF.dproj" Targets="Make" />
+  </Target>
+  <Target Name="JazzOPFFirebird">
+    <MSBuild Projects="Packages\D2007\JazzOPFFirebird.dproj" Targets="" />
+  </Target>
+  <Target Name="JazzOPFFirebird:Clean">
+    <MSBuild Projects="Packages\D2007\JazzOPFFirebird.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="JazzOPFFirebird:Make">
+    <MSBuild Projects="Packages\D2007\JazzOPFFirebird.dproj" Targets="Make" />
+  </Target>
+  <Target Name="JazzOPFADO">
+    <MSBuild Projects="Packages\D2007\JazzOPFADO.dproj" Targets="" />
+  </Target>
+  <Target Name="JazzOPFADO:Clean">
+    <MSBuild Projects="Packages\D2007\JazzOPFADO.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="JazzOPFADO:Make">
+    <MSBuild Projects="Packages\D2007\JazzOPFADO.dproj" Targets="Make" />
+  </Target>
+  <Target Name="JazzOPFDBX">
+    <MSBuild Projects="Packages\D2007\JazzOPFDBX.dproj" Targets="" />
+  </Target>
+  <Target Name="JazzOPFDBX:Clean">
+    <MSBuild Projects="Packages\D2007\JazzOPFDBX.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="JazzOPFDBX:Make">
+    <MSBuild Projects="Packages\D2007\JazzOPFDBX.dproj" Targets="Make" />
+  </Target>
+  <Target Name="JazzOPFIBX">
+    <MSBuild Projects="Packages\D2007\JazzOPFIBX.dproj" Targets="" />
+  </Target>
+  <Target Name="JazzOPFIBX:Clean">
+    <MSBuild Projects="Packages\D2007\JazzOPFIBX.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="JazzOPFIBX:Make">
+    <MSBuild Projects="Packages\D2007\JazzOPFIBX.dproj" Targets="Make" />
+  </Target>
+  <Target Name="JazzMVP">
+    <MSBuild Projects="Packages\D2007\JazzMVP.dproj" Targets="" />
+  </Target>
+  <Target Name="JazzMVP:Clean">
+    <MSBuild Projects="Packages\D2007\JazzMVP.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="JazzMVP:Make">
+    <MSBuild Projects="Packages\D2007\JazzMVP.dproj" Targets="Make" />
+  </Target>
+  <Target Name="JazzMVPVCL">
+    <MSBuild Projects="Packages\D2007\JazzMVPVCL.dproj" Targets="" />
+  </Target>
+  <Target Name="JazzMVPVCL:Clean">
+    <MSBuild Projects="Packages\D2007\JazzMVPVCL.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="JazzMVPVCL:Make">
+    <MSBuild Projects="Packages\D2007\JazzMVPVCL.dproj" Targets="Make" />
+  </Target>
+  <Target Name="JazzDBAdapter">
+    <MSBuild Projects="Packages\D2007\JazzDBAdapter.dproj" Targets="" />
+  </Target>
+  <Target Name="JazzDBAdapter:Clean">
+    <MSBuild Projects="Packages\D2007\JazzDBAdapter.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="JazzDBAdapter:Make">
+    <MSBuild Projects="Packages\D2007\JazzDBAdapter.dproj" Targets="Make" />
+  </Target>
+  <Target Name="JazzDBAdapterDsgn">
+    <MSBuild Projects="Packages\D2007\JazzDBAdapterDsgn.dproj" Targets="" />
+  </Target>
+  <Target Name="JazzDBAdapterDsgn:Clean">
+    <MSBuild Projects="Packages\D2007\JazzDBAdapterDsgn.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="JazzDBAdapterDsgn:Make">
+    <MSBuild Projects="Packages\D2007\JazzDBAdapterDsgn.dproj" Targets="Make" />
+  </Target>
+  <Target Name="FirstPersister">
+    <MSBuild Projects="Demos\02.First Persister\FirstPersister.dproj" Targets="" />
+  </Target>
+  <Target Name="FirstPersister:Clean">
+    <MSBuild Projects="Demos\02.First Persister\FirstPersister.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="FirstPersister:Make">
+    <MSBuild Projects="Demos\02.First Persister\FirstPersister.dproj" Targets="Make" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="JazzVTF;JazzOPF;JazzOPFFirebird;JazzOPFADO;JazzOPFDBX;JazzOPFIBX;JazzMVP;JazzMVPVCL;JazzDBAdapter;JazzDBAdapterDsgn;FirstPersister" />
+  </Target>
+  <Target Name="Clean">
+    <CallTarget Targets="JazzVTF:Clean;JazzOPF:Clean;JazzOPFFirebird:Clean;JazzOPFADO:Clean;JazzOPFDBX:Clean;JazzOPFIBX:Clean;JazzMVP:Clean;JazzMVPVCL:Clean;JazzDBAdapter:Clean;JazzDBAdapterDsgn:Clean;FirstPersister:Clean" />
+  </Target>
+  <Target Name="Make">
+    <CallTarget Targets="JazzVTF:Make;JazzOPF:Make;JazzOPFFirebird:Make;JazzOPFADO:Make;JazzOPFDBX:Make;JazzOPFIBX:Make;JazzMVP:Make;JazzMVPVCL:Make;JazzDBAdapter:Make;JazzDBAdapterDsgn:Make;FirstPersister:Make" />
+  </Target>
+  <Import Condition="Exists('$(MSBuildBinPath)\Borland.Group.Targets')" Project="$(MSBuildBinPath)\Borland.Group.Targets" />
+</Project>

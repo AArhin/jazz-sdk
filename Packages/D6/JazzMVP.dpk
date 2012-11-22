@@ -1,0 +1,51 @@
+package JazzMVP;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'Jazz Model View Presenter Framework'}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  dbrtl,
+  JazzVTF,
+  vcljpg,
+  vcldb,
+  JazzOPF;
+
+contains
+  JazzPresenter in '..\..\MVP\JazzPresenter.pas',
+  JazzPresenterIntf in '..\..\MVP\JazzPresenterIntf.pas',
+  JazzModel in '..\..\MVP\JazzModel.pas',
+  JazzModelIntf in '..\..\MVP\JazzModelIntf.pas',
+  JazzView in '..\..\MVP\JazzView.pas',
+  JazzViewIntf in '..\..\MVP\JazzViewIntf.pas',
+  JazzCommandSetIntf in '..\..\MVP\JazzCommandSetIntf.pas',
+  JazzInteractor in '..\..\MVP\JazzInteractor.pas',
+  JazzInteractorIntf in '..\..\MVP\JazzInteractorIntf.pas',
+  JazzSelectionIntf in '..\..\MVP\JazzSelectionIntf.pas',
+  JazzSelection in '..\..\MVP\JazzSelection.pas',
+  JazzMvpNotify in '..\..\MVP\JazzMvpNotify.pas',
+  JazzCommandSet in '..\..\MVP\JazzCommandSet.pas';
+
+end.

@@ -1,0 +1,59 @@
+package JazzOPF;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$DEFINITIONINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'Jazz Persistent Framework'}
+{$RUNONLY}
+{$IMPLICITBUILD ON}
+
+requires
+  JazzVTF,
+  rtl,
+  vcl,
+  dbrtl;
+
+contains
+  JazzMappingIntf in '..\..\OPF\JazzMappingIntf.pas',
+  JazzMapping in '..\..\OPF\JazzMapping.pas',
+  JazzPersisterConsts in '..\..\OPF\JazzPersisterConsts.pas',
+  JazzPersister in '..\..\OPF\JazzPersister.pas',
+  JazzPersisterIntf in '..\..\OPF\JazzPersisterIntf.pas',
+  JazzDatabaseMechanismIntf in '..\..\OPF\JazzDatabaseMechanismIntf.pas',
+  JazzDataFactory in '..\..\OPF\JazzDataFactory.pas',
+  JazzDatabaseMechanism in '..\..\OPF\JazzDatabaseMechanism.pas',
+  JazzSQLEngine in '..\..\OPF\JazzSQLEngine.pas',
+  JazzDataSetIntf in '..\..\OPF\JazzDataSetIntf.pas',
+  JazzDataSet in '..\..\OPF\JazzDataSet.pas',
+  JazzCriteriaIntf in '..\..\OPF\JazzCriteriaIntf.pas',
+  JazzCriteria in '..\..\OPF\JazzCriteria.pas',
+  JazzStreamMechanismIntf in '..\..\OPF\JazzStreamMechanismIntf.pas',
+  JazzMechanism in '..\..\OPF\JazzMechanism.pas',
+  JazzMechanismIntf in '..\..\OPF\JazzMechanismIntf.pas',
+  JazzStreamMechanism in '..\..\OPF\JazzStreamMechanism.pas',
+  JazzSession in '..\..\OPF\JazzSession.pas',
+  JazzSessionIntf in '..\..\OPF\JazzSessionIntf.pas';
+
+end.
